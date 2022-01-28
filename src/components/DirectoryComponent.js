@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 
-function RenderDirectoryItem(campsite, onClick) {
+function RenderDirectoryItem({ campsite, onClick }) {
   return (
     <Card onClick={() => onClick(campsite.id)}>
       <CardImg width="100%" src={campsite.image} alt={campsite.name} />
