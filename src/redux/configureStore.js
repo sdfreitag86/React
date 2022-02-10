@@ -1,5 +1,4 @@
 import { createStore, combineReducers } from 'redux';
-import { CAMPSITES } from '../shared/campsites';
 import { Campsites } from './campsites';
 import { Comments } from './comments';
 import { Partners } from './partners';
